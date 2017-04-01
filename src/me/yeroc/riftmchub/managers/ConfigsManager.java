@@ -55,7 +55,7 @@ public class ConfigsManager {
         locations = YamlConfiguration.loadConfiguration(locationsFile);
         RiftMCHub.log("Loaded locations.yml file successfully.");
 
-        RiftMCHub.log("[Half A Heart] Loaded all the config files successfully!");
+        RiftMCHub.log("[RiftMC-Hub] Loaded all the config files successfully!");
     }
 
     public FileConfiguration getLocations() {
