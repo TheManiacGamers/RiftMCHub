@@ -125,12 +125,12 @@ public class RiftMCHub extends JavaPlugin implements Listener {
         return sender instanceof ConsoleCommandSender || sender.hasPermission(perm);
     }
 
-    public Location setSpawn() {
-        spawn.setX(configs.);
-        spawn.setY(configs.);
-        spawn.setZ(configs.);
-        spawn.setYaw(configs.);
-        spawn.setPitch(configs.);
+    public void setSpawn() {
+//        spawn.setX(configs.);
+//        spawn.setY(configs.);
+//        spawn.setZ(configs.);
+//        spawn.setYaw(configs.);
+//        spawn.setPitch(configs.);
     }
 
     public Location getSpawn() {
